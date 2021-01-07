@@ -27,6 +27,7 @@ pipeline {
     stage('Deploy') {
       steps {
         echo 'Deploy completed'
+        sh 'date'
       }
     }
 
